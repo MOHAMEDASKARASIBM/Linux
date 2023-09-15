@@ -1,0 +1,2 @@
+cd /tmp
+ln -s ~/Desktop/Linux/data/sample.txt sample.txt

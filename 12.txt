@@ -1,0 +1,15 @@
+Parent.bash
+#!/bin/bash
+echo it is parent process
+free -h 
+sleep 1  
+./child.bash
+echo parent exit  
+Child.bash
+#!/bin/bash
+echo it is child process
+date
+cal 
+echo child process is finished 
+echo child is exit 
+

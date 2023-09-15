@@ -1,0 +1,2 @@
+src=`find /home/asib/ -name sample.txt`
+cp $src /tmp/found.txt  

@@ -1,0 +1,2 @@
+grep -lrw ‘localhost’ > /tmp/find.out
+grep -lrw localhost 2> /tmp/find.err

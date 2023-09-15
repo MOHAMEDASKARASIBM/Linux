@@ -1,0 +1,2 @@
+mkdir data
+cat sample.txt > this is sample file

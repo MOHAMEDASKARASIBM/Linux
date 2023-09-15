@@ -1,0 +1,5 @@
+ulimit -Hn 10000
+ulimit -Sn 10000
+Modify global to change the /etc/security/limits.conf
+* hard nofile 10000
+* soft nofile 10000

@@ -1,0 +1,10 @@
+#!/bin/bash
+while true
+do
+ echo "Current date $(date)"
+ sleep 1
+done 
+cd etc/system/system
+vim my-service.service
+[Service]
+ExecStart==/home/ubuntu/my-service.bash

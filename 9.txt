@@ -1,0 +1,4 @@
+sudo login -f tuser
+umask 0022
+touch one.txt
+

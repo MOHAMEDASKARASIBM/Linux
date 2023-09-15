@@ -1,0 +1,8 @@
+sudo apt update
+sudo apt install apache2
+cd /var/www/html/
+vim index.html
+cd /etc/apache2/
+vim ports.conf
+service apache2 restart
+service apache2 status

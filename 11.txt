@@ -1,0 +1,3 @@
+sudo apt install jq
+cat file.json | jq ‘.quiz.maths’
+
